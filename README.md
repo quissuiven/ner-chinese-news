@@ -18,12 +18,11 @@ Given text input, extracts all entities including entity type and confidence sco
     - Example:
         ```
         Input: {"text": "陈俊勇本月底将到印度尼西亚旅游，加上从未确诊，因此决定继续戴口罩"}
-        Output: {"entities": [["陈俊勇","PERSON","0.9998766"]]}
+        Output: {"entities": [["本月","DATE","0.5319928"],["陈俊勇","PERSON","0.9998766"]]}
         ```
-
 ## Exposed API
 
-The API is accessible via https://qui-ner-project.onrender.com at the various endpoints mentioned in the API contract above
+The API is accessible via https://chinese-news-ner.onrender.com at the various endpoints mentioned in the API contract above
 
 ## Running the API on your local
 
