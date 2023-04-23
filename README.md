@@ -28,12 +28,13 @@ The API is accessible via https://chinese-news-ner.onrender.com at the various e
 
 1. Clone this repository
 
-	`git clone https://gitlab.com/cyber-sandbox/qui-project.git`
+	`git clone https://github.com/quissuiven/ner-chinese-news.git`
+
 
 2. Build and run Docker Image
 
 	```
-	cd qui-project
+	cd ner-chinese-news
 	docker build -f Dockerfile.txt -t qui-app .
 	docker run --name flask1 -d --publish 5000:5000 qui-app
 	```
