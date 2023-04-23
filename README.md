@@ -35,7 +35,7 @@ The API is accessible via https://chinese-news-ner.onrender.com at the various e
 
 	```
 	cd ner-chinese-news
-	docker build -f Dockerfile.txt -t qui-app .
+	docker build -f Dockerfile -t qui-app .
 	docker run --name flask1 -d --publish 5000:5000 qui-app
 	```
 
